@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #101010;
+}
+
+.snowflake {
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    animation: 3s fall linear forwards;
+    color: green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh)
+    }
+}
